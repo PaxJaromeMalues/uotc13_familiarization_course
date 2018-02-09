@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://github.com/PaxJaromeMalues/uotc13_familiarization_course/fc_logo.png">
+    <img src="https://github.com/PaxJaromeMalues/uotc13_familiarization_course/blob/master/fc_logo.png">
 </p>
 <p align="center">
     <a href="https://github.com/PaxJaromeMalues/uotc13_familiarization_course/releases/latest">
@@ -12,3 +12,5 @@
         <img src="https://img.shields.io/badge/UO-Wiki-lightgrey.svg?colorA=B19E71&colorB=5A5A5A" alt="UO Wiki">
     </a>
 </p>
+
+The **UOTC Familiarization Course** is a mission created for the ArmA3 United Operations Community with the aim to familiarize new players with general vanilla and ACE3 equipment and basic milsim gameply components applicable to UOs gameplay.

@@ -3,7 +3,7 @@
 </p>
 <p align="center">
     <a href="https://github.com/PaxJaromeMalues/uotc13_familiarization_course/releases/latest">
-        <img src="https://img.shields.io/badge/Version-1.9.n-orange.svg" alt="FC2 Version">
+        <img src="https://img.shields.io/badge/Version-1.9.15-red.svg" alt="FC2 Version">
     </a>
     <a href="https://github.com/PaxJaromeMalues/Olsen-Framework-Arma-3/issues">
         <img src="https://img.shields.io/github/issues-raw/PaxJaromeMalues/uotc13_familiarization_course.svg?label=Issues" alt="FC2 Issues">

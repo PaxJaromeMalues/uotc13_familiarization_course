@@ -1,25 +1,31 @@
+//AUTHOR: Pax'Jarome Mlaues
+//OFWvUsed: 3.3.2
+
 #define package "uotc_loadout_west_"
 
-#define ifak \
-	["ACE_fieldDressing", 2, "uniform"] call FNC_AddItem; \
-	["ACE_elasticBandage", 2, "uniform"] call FNC_AddItem; \
-	["ACE_packingBandage", 2, "uniform"] call FNC_AddItem; \
-	["ACE_quikclot", 2, "uniform"] call FNC_AddItem; \
-	["ACE_morphine", 1, "uniform"] call FNC_AddItem; \
-	["ACE_epinephrine", 1, "uniform"] call FNC_AddItem; \
+SET_GROUP(ifak)
+	["ACE_fieldDressing", 2, "uniform"] call FNC_AddItem;
+	["ACE_elasticBandage", 2, "uniform"] call FNC_AddItem;
+	["ACE_packingBandage", 2, "uniform"] call FNC_AddItem;
+	["ACE_quikclot", 2, "uniform"] call FNC_AddItem;
+	["ACE_morphine", 1, "uniform"] call FNC_AddItem;
+	["ACE_epinephrine", 1, "uniform"] call FNC_AddItem;
 	["ACE_tourniquet", 1, "uniform"] call FNC_AddItem;
+END_GROUP;
 	
-#define items \
-	["ItemMap"] call FNC_AddItem; \
-	["ItemCompass"] call FNC_AddItem; \
-	["ItemWatch"] call FNC_AddItem; \
+SET_GROUP(items)
+	["ItemMap"] call FNC_AddItem;
+	["ItemCompass"] call FNC_AddItem;
+	["ItemWatch"] call FNC_AddItem;
 	["ACE_MapTools", 1, "vest"] call FNC_AddItem;
-	
-#define radios \
+END_GROUP;
+
+SET_GROUP(radios)
 	["ACRE_PRC343", 1, "vest"] call FNC_AddItem; \
 	["ACRE_PRC148", 1, "vest"] call FNC_AddItem;
 	
-#define sidearm \
+SET_GROUP(sidearm)
+END_GROUP;
 
 //////////////
 //CASES SPAWN
@@ -32,17 +38,17 @@ case (package + "CI"): {
 	//[""] call FNC_AddItem; //NoRuckForTI
 	["tin_helmet_uotc_beret"] call FNC_AddItem; //HeadGear
 	
-	ifak;
+	ADD_GROUP(ifak);
 	
 	["ACE_microDAGR", 1, "uniform"] call FNC_AddItem;
 	["ACE_personalAidKit", 6, "vest"] call FNC_AddItem;
 	
-	sidearm;
-	items;
+	ADD_GROUP(sidearm);
+	ADD_GROUP(items);
 	
 	["Rangefinder"] call FNC_AddItem;
 	
-	radios;
+	ADD_GROUP(radios);
 	
 	["ACRE_PRC152", 1, "vest"] call FNC_AddItem;
 
@@ -55,17 +61,17 @@ case (package + "TI"): {
 	//[""] call FNC_AddItem; //NoRuckForTI
 	["tin_helmet_uotc_beret"] call FNC_AddItem; //HeadGear
 	
-	ifak;
+	ADD_GROUP(ifak);
 	
 	["ACE_microDAGR", 1, "uniform"] call FNC_AddItem;
 	["ACE_personalAidKit", 6, "vest"] call FNC_AddItem;
 	
-	sidearm;
-	items;
+	ADD_GROUP(sidearm);
+	ADD_GROUP(items);
 	
 	["Rangefinder"] call FNC_AddItem;
 	
-	radios;
+	ADD_GROUP(radios);
 	
 	["ACRE_PRC152", 1, "vest"] call FNC_AddItem;
 
@@ -78,13 +84,13 @@ case (package + "PT"): {
 	//[""] call FNC_AddItem; //NoRuckForPTSpawn
 	//[""] call FNC_AddItem; //NoHeadGearParticipantSpawn
 	
-	ifak;
-	sidearm;
-	items;
+	ADD_GROUP(ifak);
+	ADD_GROUP(sidearm);
+	ADD_GROUP(items);
 	
 	["Binocular", 1] call FNC_AddItem;
 	
-	radios;
+	ADD_GROUP(radios);
 
 };
 
@@ -99,13 +105,13 @@ case (package + "GRN"): {
 	//[""] call FNC_AddItem; //NoRuckForGRN
 	["rhsusf_ach_helmet_headset_ocp"] call FNC_AddItem; //Head
 	
-	ifak;
-	sidearm;
-	items;
+	ADD_GROUP(ifak);
+	ADD_GROUP(sidearm);
+	ADD_GROUP(items);
 	
 	["Binocular", 1] call FNC_AddItem;
 	
-	radios;
+	ADD_GROUP(radios);
 
 	["rhs_weap_m4a1_m320"] call FNC_AddItem;
 	["rhsusf_acc_M952V"] call FNC_AddItem;
@@ -122,13 +128,13 @@ case (package + "AR"): {
 	//[""] call FNC_AddItem; //NoRuckForAR
 	["rhsusf_ach_helmet_headset_ocp"] call FNC_AddItem; //Head
 	
-	ifak;
-	sidearm;
-	items;
+	ADD_GROUP(ifak);
+	ADD_GROUP(sidearm);
+	ADD_GROUP(items);
 	
 	["Binocular", 1] call FNC_AddItem;
 	
-	radios;
+	ADD_GROUP(radios);
 
 	["rhs_weap_m249_pip_S"] call FNC_AddItem;
 	["rhsusf_acc_M952V"] call FNC_AddItem;
@@ -144,13 +150,13 @@ case (package + "RM"): {
 	//[""] call FNC_AddItem; //NoRuckForAR
 	["rhsusf_ach_helmet_headset_ocp"] call FNC_AddItem; //Head
 	
-	ifak;
-	sidearm;
-	items;
+	ADD_GROUP(ifak);
+	ADD_GROUP(sidearm);
+	ADD_GROUP(items);
 	
 	["Binocular", 1] call FNC_AddItem;
 	
-	radios;
+	ADD_GROUP(radios);
 
 	["rhs_weap_m4a1_blockII_d"] call FNC_AddItem;
 	["rhs_weap_M136"] call FNC_AddItem;

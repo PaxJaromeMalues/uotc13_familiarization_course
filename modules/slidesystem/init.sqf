@@ -17,14 +17,14 @@ if (!isDedicated) then {
 			curSlideD2 = 1;
 			
 			//board addAction
-			laptop1 addAction ["Next Slide", "modules\slidesystem\changeSlide.sqf", "Next"];
-			laptop1 addAction ["Previous Slide", "modules\slidesystem\changeSlide.sqf", "Back"];
-			laptop2 addAction ["Next Slide", "modules\slidesystem\changeSlide.sqf", "Next"];
-			laptop2 addAction ["Previous Slide", "modules\slidesystem\changeSlide.sqf", "Back"];
-			laptop3 addAction ["Next Slide", "modules\slidesystem\changeSlide.sqf", "Next"];
-			laptop3 addAction ["Previous Slide", "modules\slidesystem\changeSlide.sqf", "Back"];
-			laptop4 addAction ["Next Slide", "modules\slidesystem\changeSlide.sqf", "Next"];
-			laptop4 addAction ["Previous Slide", "modules\slidesystem\changeSlide.sqf", "Back"];
+			screen1 addAction ["Next Slide", "modules\slidesystem\changeSlide.sqf", "Next"];
+			screen1 addAction ["Previous Slide", "modules\slidesystem\changeSlide.sqf", "Back"];
+			screen2 addAction ["Next Slide", "modules\slidesystem\changeSlide.sqf", "Next"];
+			screen2 addAction ["Previous Slide", "modules\slidesystem\changeSlide.sqf", "Back"];
+			screen3 addAction ["Next Slide", "modules\slidesystem\changeSlide.sqf", "Next"];
+			screen3 addAction ["Previous Slide", "modules\slidesystem\changeSlide.sqf", "Back"];
+			screen4 addAction ["Next Slide", "modules\slidesystem\changeSlide.sqf", "Next"];
+			screen4 addAction ["Previous Slide", "modules\slidesystem\changeSlide.sqf", "Back"];
 	
 		};
     

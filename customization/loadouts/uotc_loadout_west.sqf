@@ -21,9 +21,10 @@ SET_GROUP(items)
 END_GROUP;
 
 SET_GROUP(radios)
-	["ACRE_PRC343", 1, "vest"] call FNC_AddItem; \
+	["ACRE_PRC343", 1, "vest"] call FNC_AddItem;
 	["ACRE_PRC148", 1, "vest"] call FNC_AddItem;
-	
+END_GROUP;
+
 SET_GROUP(sidearm)
 END_GROUP;
 

@@ -85,7 +85,7 @@ switch (side player) do {
 		<br/>
 		<br/><font color='#FFA500' size='16'>c. Enemy:</font>
 		//If possible provide image intel of the enemy factions/elements loadout or how an individual might dress.
-		<br/><img image='res\enemy.jpg' width='200' />
+		//<br/><img image='res\enemy.jpg' width='200' />
 		<br/>
 		<br/><font color='#005aff' size='15'>1. Disposition, Composition and Strength:</font>
 		<br/><font size='14'>a. DISPOSITION:</font>

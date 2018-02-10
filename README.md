@@ -8,7 +8,7 @@
 	<a href="https://github.com/dklollol/Olsen-Framework-Arma-3/releases/tag/3.3.2">
         <img src="https://img.shields.io/badge/OFW-3.3.2-blue.svg" alt="OFW">
     </a>
-    <a href="https://github.com/PaxJaromeMalues/Olsen-Framework-Arma-3/issues">
+    <a href="https://github.com/PaxJaromeMalues/uotc13_familiarization_course/issues">
         <img src="https://img.shields.io/github/issues-raw/PaxJaromeMalues/uotc13_familiarization_course.svg?label=Issues" alt="FC2 Issues">
     </a>
     <a href="http://www.unitedoperations.net/wiki/Familarization_Course_Lesson_Plan">

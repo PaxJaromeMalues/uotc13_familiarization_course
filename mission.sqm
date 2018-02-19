@@ -735,8 +735,8 @@ class Mission
 	appId=395180;
 	class Intel
 	{
-		briefingName="UOTC13 Familiarization Course V1.9.15";
-		overviewText="UOTC13 Familiarization Course V1.9.15";
+		briefingName="Familiarization Course V1.9.16";
+		overviewText="Familiarization Course V1.9.16";
 		resistanceEast=1;
 		startWeather=0;
 		startWind=0;

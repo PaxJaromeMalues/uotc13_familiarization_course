@@ -271,7 +271,7 @@ switch (side player) do {
 		<br/>10. Fire control measures: Detailed order of priority of targets; Sectors of fires including TRPs; Visual/Sound signals.
 		<br/>TRPs as per C´2 2IC
 		<br/>Limit sectors of fire south and east of Bastam to non civilian areas.
-		<br/>11. MOPP levels: Not really applicable to UO modpack.
+		<br/>11. MOPP levels: All protective gear and gask masks should remain on person at all times during operation.
 		<br/>12. Troop safety and operational exposure guidance: None.
 		<br/>13. Time schedules (rehearsals, backbriefs, inspections, movement) Given are: Who, When, Where and What will be briefed. Actions on objective should at all times be rehearsed for all elements!
 		<br/>C´2 internal rehearsal at C´2 ORP in before operation start.
@@ -354,7 +354,7 @@ switch (side player) do {
 		<br/><font color='#005aff' size='15'>2. Locations of key personnel during all phases of the operation, during movement, at the ORP and on the objective.</font>
 		<br/>Charlie COY HQ maintains position throughout all phases. The attached Ambulance Squad will maintain their position.
 		<br/><font color='#005aff' size='15'>3. Succession of Command</font>
-		<br/>C´6, C´7 C´4 C´1 C´2 C´3
+		<br/>C´6, C´7, C´4, C´1, C´2, C´3
 		<br/><font color='#005aff' size='15'>4. (Skip) Adjustments to unit SOPs</font>
 		<br/><font color='#FFA500' size='16' face='PuristaBold'>b. Signal:</font>
 		<br/><font color='#005aff' size='15'>1. Signal Operating Instructions Index in effect:</font>

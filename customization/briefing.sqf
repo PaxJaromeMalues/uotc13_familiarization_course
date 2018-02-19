@@ -52,7 +52,9 @@ switch (side player) do {
 		<br/>
 		<br/><font color='#005aff' size='15'>1. Terrain:</font>
 		//If in line with the equipment, story and era your mission plays in, provide image intel of the AO
+		<br/>(area top view)
 		<br/><img image='res\top.jpg' width='350' />
+		<br/>(area thermal view)
 		<br/><img image='res\3Dthermal.jpg' width='350' />
 		<br/>
 		<br/><font color='#005aff' size='15'>2. Weather:</font>

@@ -79,7 +79,6 @@ if (!isDedicated) then {
 			{true}
 		] call ace_interact_menu_fnc_createAction;
 
-		[gear_spawn_0, 0, ["ACE_MainActions"], _y] call ace_interact_menu_fnc_addActionToObject;
 		[gear_spawn_1, 0, ["ACE_MainActions"], _y] call ace_interact_menu_fnc_addActionToObject;
 		[gear_spawn_2, 0, ["ACE_MainActions"], _y] call ace_interact_menu_fnc_addActionToObject;
 

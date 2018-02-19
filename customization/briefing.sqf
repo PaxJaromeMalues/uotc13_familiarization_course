@@ -169,7 +169,7 @@ switch (side player) do {
 		<br/><font color='#FFA500' size='16' face='PuristaBold'>Mission Intent:</font>
 		//This now is your (the mission makers) view onto the mission you made. How do you want the mission CO to accomplish the mission, what is he to accomplish and what are the states.
 		//!!!IMPORTANT: If the mission is designed to run multiple units below 'you' their missions and objectives belong in here as well. You will have to adjust II.Mission and III.Execution accordingly.
-		<br/>Carlie 2nd Platoon and Attched Forces are to establish a blocking position (with its weapons squad and the attached squad from C'4) east and south from Bastam guarding south and east routes NLT (not later than) 1400 local time independed from developments inside the IDAP HQ area.
+		<br/>Charlie 2nd Platoon and Attached Forces are to establish a blocking position (with its weapons squad and the attached squad from C'4) east and south from Bastam guarding south and east routes NLT (not later than) 1400 local time independed from developments inside the IDAP HQ area.
 		<br/>If the IDAP HQ is (against all odds) occupied by insurgent forces, the mosque ist to be surrounded by a safety parameter of minimum 50m all around. No fires into the IDAP HQ are allowed.
 		<br/>
 		<br/><font color='#FFA500' size='16' face='PuristaBold'>Objectives:</font>

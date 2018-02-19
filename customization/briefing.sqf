@@ -9,20 +9,20 @@ switch (side player) do {
 		//Understand that the Unit Organization is not part of the OPORD. The OPORD starts with point I. Situation. The tab Unit Organization explains the unit mentioned in the OPORD in terms to its next vertical and horizontal elements.
 		<br/><font color='#FFA500' size='16' face='PuristaBold'>C Company (C/2-330 INF):</font>
 		// make sure to present horizontal and vertical elements to support the player in realizing his own situation within the unit.
-		<br/>Company CO - C'6
-		<br/>Company XO - C'7
-		<br/>1st Infantry Platoon - C'1
-		<br/>2nd Infantry Platoon - C'2 (You)
-		<br/>3rd Infantry Platoon - C'3
-		<br/>Heavy Weapons Platoon - C'4
+		<br/>Company CO - C´6
+		<br/>Company XO - C´7
+		<br/>1st Infantry Platoon - C´1
+		<br/>2nd Infantry Platoon - C´2 (You)
+		<br/>3rd Infantry Platoon - C´3
+		<br/>Heavy Weapons Platoon - C´4
 		<br/>
 		<br/><font color='#FFA500' size='16' face='PuristaBold'>Compositions and Locations:</font>
 		//Provide clear information about the location at minimum, any composition differing from the default unit organization should be mentioned here.
 		<br/>Charlie Company (as per unit organization) at South Rasman.
-		<br/>C'1 at Rasman South blocking west.
-		<br/>C'2 at Rasman South blocking east. (YOU)
-		<br/>C'3 at Rasman South blocking and fighting Bastam North.
-		<br/>C'4 at Rasman South and 2 squads in supporting positions.
+		<br/>C´1 at Rasman South blocking west.
+		<br/>C´2 at Rasman South blocking east. (YOU)
+		<br/>C´3 at Rasman South blocking and fighting Bastam North.
+		<br/>C´4 at Rasman South and 2 squads in supporting positions.
 		<br/> 
 		<br/><font color='#FFA500' size='16' face='PuristaBold'>Attached or Organic Forces:</font>
 		// make sure to present attachments with their actual origin, type and callsign.
@@ -41,7 +41,7 @@ switch (side player) do {
 		//Here you provide a detailed report of recent important events connected to your OPORD (so your Element, not the mission COs element only).
 		<br/>Charlie Company (together with Alpha and Bravo Company) has been inserted into North East Takistan as of T+2Days and has established a defensive Parameter around the NE airfield at 114057.
 		<br/>There has been few resistance by the local Insurgents over the past 2 days. Today at sunrise this changed drastically. All three companies have been engaged by insurgent forces at sunrise.
-		<br/>Sofar Charlie 3 Platoon supported by C'4'1 was able to stop and return any Fire into their direction. Attacks onto Charlie Company came from Lalezar Plant to the west and Bastam south.
+		<br/>Sofar Charlie 3 Platoon supported by C´4´1 was able to stop and return any Fire into their direction. Attacks onto Charlie Company came from Lalezar Plant to the west and Bastam south.
 		<br/>
 		<br/><font color='#FFA500' size='16' face='PuristaBold'>a. Areas of Interest:</font>
 		//If you have any areas of interest defined name them, their locations and what makes them interesting.
@@ -169,13 +169,13 @@ switch (side player) do {
 		<br/><font color='#FFA500' size='16' face='PuristaBold'>Mission Intent:</font>
 		//This now is your (the mission makers) view onto the mission you made. How do you want the mission CO to accomplish the mission, what is he to accomplish and what are the states.
 		//!!!IMPORTANT: If the mission is designed to run multiple units below 'you' their missions and objectives belong in here as well. You will have to adjust II.Mission and III.Execution accordingly.
-		<br/>Charlie 2nd Platoon and Attached Forces are to establish a blocking position (with its weapons squad and the attached squad from C'4) east and south from Bastam guarding south and east routes NLT (not later than) 1400 local time independed from developments inside the IDAP HQ area.
+		<br/>Charlie 2nd Platoon and Attached Forces are to establish a blocking position (with its weapons squad and the attached squad from C´4) east and south from Bastam guarding south and east routes NLT (not later than) 1400 local time independed from developments inside the IDAP HQ area.
 		<br/>If the IDAP HQ is (against all odds) occupied by insurgent forces, the mosque ist to be surrounded by a safety parameter of minimum 50m all around. No fires into the IDAP HQ are allowed.
 		<br/>
 		<br/><font color='#FFA500' size='16' face='PuristaBold'>Objectives:</font>
 		//Define specific Objectives or positions on which your want the mission CO to execute specific tasks.
 		//Do also define the end state of the operation.
-		<br/><font color='#005aff' size='15'>ORP C'2</font>
+		<br/><font color='#005aff' size='15'>ORP C´2</font>
 		<br/>- Establish safety parameter and prepare to move into Bastam North.
 		<br/>
 		<br/><font color='#005aff' size='15'>Bastam North (Phase One)</font>
@@ -199,9 +199,9 @@ switch (side player) do {
 		//Give overview of the planned tasks in your concept per unit.
 		//As said above, if you brief for multiple units, you will have to adjust the briefing accordingly.
 		<br/>Charlie Company will accomplish the mission by the following steps:
-		<br/>- C'1 will seize Lalazar Plant in a cooperative effort with C'4 NLT 1145 local time and place their weapons squad in support of C'2s efforts at 094-054 defensive structures. As per seperat OPORD.
-		<br/>- C'2 will then cross through C'3 seizing Bastam with defined orders as per this OPORD Paragraph II. C'2 will not use the roads leading to Bastam due to threat of IEDs. C'2 will not use indirect fires in the near of IDAP HQ.
-		<br/>- Last C'3 will move into blocking position at hill 2178 east of Bastam at 097068 as per separate OPORD.
+		<br/>- C´1 will seize Lalazar Plant in a cooperative effort with C´4 NLT 1145 local time and place their weapons squad in support of C´2s efforts at 094-054 defensive structures. As per seperat OPORD.
+		<br/>- C´2 will then cross through C´3 seizing Bastam with defined orders as per this OPORD Paragraph II. C´2 will not use the roads leading to Bastam due to threat of IEDs. C´2 will not use indirect fires in the near of IDAP HQ.
+		<br/>- Last C´3 will move into blocking position at hill 2178 east of Bastam at 097068 as per separate OPORD.
 		<br/>The decisive point of this mission is to take Bastam.
 		<br/>This is decisive as it is mandatory to hold this position to accomplish the forming of the security ring around Rasman airfield.
 		<br/>Charlie 2 Platoon will be the main effort of this operations. With all other platoons in supporting efforts.
@@ -261,20 +261,20 @@ switch (side player) do {
 		<br/><font color='#005aff' size='15'>1. 2nd Platoon of Charlie Company:</font>
 		<br/>1. All units are to precede with caution and have to be covered at all phases.
 		<br/>2. Actions at short/long halts: Establish security and maintain spacing. Report to Higher.
-		<br/>3. Primary and alternate routes per element. C'2 - south in between the south bound roads towards Bastam, no alternative route available.
-		<br/>4. Location of departure and friendly reentry lines. LOD is east of Rasman South, FRL are south of C'2 ORP and north of Bastam North.
-		<br/>5. ORP C'2 at 096055. Surrounded by foliage.
+		<br/>3. Primary and alternate routes per element. C´2 - south in between the south bound roads towards Bastam, no alternative route available.
+		<br/>4. Location of departure and friendly reentry lines. LOD is east of Rasman South, FRL are south of C´2 ORP and north of Bastam North.
+		<br/>5. ORP C´2 at 096055. Surrounded by foliage.
 		<br/>6. Actions at danger areas: inspect DA and bypass in sufficient distance based on OPORD.
 		<br/>7. Actions on enemy contact: Engage, fix and destroy. Try not to be forced into fighting retreat.
 		<br/>8. Reorganization and consolidation instructions. If the unit breaks appart, all units reconsolidate at the last Phases CCP in defensive positions.
-		<br/>9. Fire distribution: point fires vs area fires for all weapons systems: As per C'2 COs descretion.
+		<br/>9. Fire distribution: point fires vs area fires for all weapons systems: As per C´2 COs descretion.
 		<br/>10. Fire control measures: Detailed order of priority of targets; Sectors of fires including TRPs; Visual/Sound signals.
-		<br/>TRPs as per C'2 2IC
+		<br/>TRPs as per C´2 2IC
 		<br/>Limit sectors of fire south and east of Bastam to non civilian areas.
 		<br/>11. MOPP levels: Not really applicable to UO modpack.
 		<br/>12. Troop safety and operational exposure guidance: None.
 		<br/>13. Time schedules (rehearsals, backbriefs, inspections, movement) Given are: Who, When, Where and What will be briefed. Actions on objective should at all times be rehearsed for all elements!
-		<br/>C'2 internal rehearsal at C'2 ORP in before operation start.
+		<br/>C´2 internal rehearsal at C´2 ORP in before operation start.
 		<br/>14. Priority Intelligence Requirements(PIR): Skip as not applicable to UO
 		<br/>15. Debriefing requirements. Skip as mostly not done at UO.
 		<br/>16. Report schedule: ACE reports after each engagement. SALUTE reports on enemy sightings.
@@ -293,26 +293,27 @@ switch (side player) do {
 
 		NEWTAB("IV. Service Support:")
 		<br/><font color='#FFA500' size='16' face='PuristaBold'>a. General Concept:</font>
-		<br/>Resupply is only available at Rasman South with C'6.
+		<br/>Resupply is only available at Rasman South with C´6.
 		<br/>Company AXP (Ambulance Exchange Point) is located at 105062
-		<br/>C'2 trauma specialist is to request medevac via COY MEDEVAC NET as per 9line medevac SOP.
+		<br/>C´2 trauma specialist is to request medevac via COY MEDEVAC NET as per 9line medevac SOP.
 		<br/>
 		<br/><font color='#FFA500' size='16' face='PuristaBold'>b. Material and Services:</font>
 		<br/><font color='#005aff' size='15'>1. Supply:</font>
-		<br/>a. Class I: Food and Water (Skip)
+		<br/>
 		<br/>b. Class II: Clothing and individual equipment
+		<br/>Info N/A
 		<br/>c. Class III: POL (fuel)
+		<br/>Info N/A
 		<br/>d. Class IV: Construction
+		<br/>Info N/A
 		<br/>e. Class V: Ammunition
 		<br/>Only available at COY HQ. No frontline resupply available as of now. Resupply via HMMWV possible.
-		<br/>f. Class VI: Personal Demand Items (Skip)
 		<br/>g. Class VII: Major End Items (f.e. special items like claymores and with whom they are)
-		<br/>Heavy AT capabilities with C'4 + resupply.
+		<br/>Heavy AT capabilities with C´4 + resupply.
 		<br/>h. Class VIII: Medical equipment
 		<br/>i. Class IX: Repair
-		<br/>j. Class X: Agriculture/Economic Development (Skip)
 		<br/>k. Method of Supply distribution
-		<br/>Supply distribution via C'5 Company First Sergeant with COY HQ
+		<br/>Supply distribution via C´5 Company First Sergeant with COY HQ
 		<br/>
 		<br/><font color='#005aff' size='15'>2. Transportation:</font>
 		<br/>None.
@@ -353,7 +354,7 @@ switch (side player) do {
 		<br/><font color='#005aff' size='15'>2. Locations of key personnel during all phases of the operation, during movement, at the ORP and on the objective.</font>
 		<br/>Charlie COY HQ maintains position throughout all phases. The attached Ambulance Squad will maintain their position.
 		<br/><font color='#005aff' size='15'>3. Succession of Command</font>
-		<br/>C'6, C'7 C'4 C'1 C'2 C'3
+		<br/>C´6, C´7 C´4 C´1 C´2 C´3
 		<br/><font color='#005aff' size='15'>4. (Skip) Adjustments to unit SOPs</font>
 		<br/><font color='#FFA500' size='16' face='PuristaBold'>b. Signal:</font>
 		<br/><font color='#005aff' size='15'>1. Signal Operating Instructions Index in effect:</font>

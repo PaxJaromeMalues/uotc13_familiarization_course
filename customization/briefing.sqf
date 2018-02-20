@@ -5,6 +5,12 @@ switch (side player) do {
     case west:
     {
 	
+		NEWTAB("EXAMPLE MISSION SETUP!")
+		<br/>Be adviced that the below Briefing Tabs are not for the training mission you partake in right now, but for instruction purposes of said course.
+		<br/>If you are currently waiting unoccupied in the briefing screen while other participants join or technical issues are sorted out, read the below briefing and try to comperehent its scope and meaning.
+		<br/>This briefing example is overscaled to the size of a 42 player mission to make you familiar with mission sizes on the primary.
+		ENDTAB;
+		
 		NEWTAB("Task Organization:")
 		//Understand that the Unit Organization is not part of the OPORD. The OPORD starts with point I. Situation. The tab Unit Organization explains the unit mentioned in the OPORD in terms to its next vertical and horizontal elements.
 		<br/><font color='#FFA500' size='16' face='PuristaBold'>C Company (C/2-330 INF):</font>

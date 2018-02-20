@@ -1,4 +1,4 @@
-//AUTHOR: Pax'Jarome Mlaues
+//AUTHOR: Pax'Jarome Malues
 //OFWvUsed: 3.3.2
 
 #define package "uotc_loadout_west_"
@@ -22,10 +22,15 @@ END_GROUP;
 
 SET_GROUP(radios)
 	["ACRE_PRC343", 1, "vest"] call FNC_AddItem;
-	["ACRE_PRC148", 1, "vest"] call FNC_AddItem;
 END_GROUP;
 
 SET_GROUP(sidearm)
+END_GROUP;
+
+SET_GROUP(primary)
+	["rhs_weap_m4a1_blockII_d"] call FNC_AddItem;
+	["rhsusf_acc_SF3P556"] call FNC_AddItem;
+	["rhsusf_acc_M952V"] call FNC_AddItem;
 END_GROUP;
 
 //////////////
@@ -45,6 +50,7 @@ case (package + "CI"): {
 	["ACE_personalAidKit", 6, "vest"] call FNC_AddItem;
 	
 	ADD_GROUP(sidearm);
+	ADD_GROUP(primary);
 	ADD_GROUP(items);
 	
 	["Rangefinder"] call FNC_AddItem;
@@ -68,6 +74,7 @@ case (package + "TI"): {
 	["ACE_personalAidKit", 6, "vest"] call FNC_AddItem;
 	
 	ADD_GROUP(sidearm);
+	ADD_GROUP(primary);
 	ADD_GROUP(items);
 	
 	["Rangefinder"] call FNC_AddItem;
@@ -87,6 +94,7 @@ case (package + "PT"): {
 	
 	ADD_GROUP(ifak);
 	ADD_GROUP(sidearm);
+	ADD_GROUP(primary);
 	ADD_GROUP(items);
 	
 	["Binocular", 1] call FNC_AddItem;

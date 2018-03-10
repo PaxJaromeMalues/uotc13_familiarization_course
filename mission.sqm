@@ -8,7 +8,7 @@ class EditorData
 	toggles=66;
 	class ItemIDProvider
 	{
-		nextID=2298;
+		nextID=2304;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={6139.2173,118.32252,11566.049};
-		dir[]={0.48710224,-0.8222785,0.29466301};
-		up[]={0.70358795,0.56888795,0.42562768};
-		aside[]={0.51768792,-4.2573083e-006,-0.85575253};
+		pos[]={6071.603,92.434143,11755.713};
+		dir[]={-0.59853983,-0.5663628,-0.56675756};
+		up[]={-0.41136977,0.82391942,-0.38953456};
+		aside[]={-0.68768793,1.1383963e-006,0.7262224};
 	};
 };
 binarizationWanted=0;
@@ -755,7 +755,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=1076;
+		items=1078;
 		class Item0
 		{
 			dataType="Object";
@@ -29725,8 +29725,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6100.4629,84.783188,11708.774};
-				angles[]={0,5.5136518,0};
+				position[]={6087.0933,84.783188,11711.411};
+				angles[]={0,3.9438477,0};
 			};
 			side="Empty";
 			flags=4;
@@ -32918,6 +32918,124 @@ class Mission
 					};
 				};
 				nAttributes=1;
+			};
+		};
+		class Item1076
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6069.4307,84.783188,11728.269};
+				angles[]={0,3.9438477,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="board1_11";
+			};
+			id=2302;
+			type="Land_Billboard_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ObjectTextureCustom0";
+					expression="_this setObjectTextureGlobal [0,_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="res\lfx1sign.jpg";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item1077
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6051.9829,84.783188,11745};
+				angles[]={0,3.9438477,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="board1_12";
+			};
+			id=2303;
+			type="Land_Billboard_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ObjectTextureCustom0";
+					expression="_this setObjectTextureGlobal [0,_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="res\lfx1sign.jpg";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
 			};
 		};
 	};

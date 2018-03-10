@@ -8,7 +8,7 @@ class EditorData
 	toggles=66;
 	class ItemIDProvider
 	{
-		nextID=2304;
+		nextID=2305;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={6071.603,92.434143,11755.713};
-		dir[]={-0.59853983,-0.5663628,-0.56675756};
-		up[]={-0.41136977,0.82391942,-0.38953456};
-		aside[]={-0.68768793,1.1383963e-006,0.7262224};
+		pos[]={5115.584,96.67411,10966.706};
+		dir[]={-0.82205009,-0.33239108,-0.46257722};
+		up[]={-0.28995138,0.94288403,-0.16316637};
+		aside[]={-0.49050209,5.8208025e-006,0.87164164};
 	};
 };
 binarizationWanted=0;
@@ -30014,8 +30014,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5092.7358,92.275688,10968.676};
-				angles[]={0,4.4420071,0};
+				position[]={5092.6494,92.583084,10967.522};
+				angles[]={0,5.2372026,0};
 			};
 			side="Empty";
 			flags=4;
@@ -30025,7 +30025,6 @@ class Mission
 			};
 			id=2177;
 			type="Land_Billboard_F";
-			atlOffset=-0.39507294;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -30075,7 +30074,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={5120.7705,88.826263,10944.32};
-				angles[]={0,2.9511633,0};
+				angles[]={0,2.3674693,0};
 			};
 			side="Empty";
 			class Attributes

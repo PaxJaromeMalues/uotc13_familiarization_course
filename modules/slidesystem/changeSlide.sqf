@@ -2,7 +2,7 @@ _dir = _this select 3;
 _displaysurface = _this select 0;
 /////////////////////////////////////////////////////////1
 if (_dir == "Next" && _displaysurface == screen1) then {
-	if (curSlideA2 < 16) then {
+	if (curSlideA2 < 13) then {
 		curSlideA2 = curSlideA2 + 1;
 		[board1, [0, format["slides\board1\slideA%1.jpg", curSlideA2]]] remoteExec ["setObjectTexture", 0, false];
 		[screen1, [0, format["slides\board1\slideA%1.jpg", curSlideA2]]] remoteExec ["setObjectTexture", 0, false];
@@ -21,7 +21,7 @@ if (_dir == "Back" && _displaysurface == screen1) then {
 		[board1, [0, format["slides\board1\slideA%1.jpg", curSlideA2]]] remoteExec ["setObjectTexture", 0, false];
 		[screen1, [0, format["slides\board1\slideA%1.jpg", curSlideA2]]] remoteExec ["setObjectTexture", 0, false];
     } else {
-		curSlideA2 = 16;
+		curSlideA2 = 13;
 		[board1, [0,"slides\board1\slideA1.jpg"]] remoteExec ["setObjectTexture", 0, false];
 		[screen1, [0,"slides\board1\slideA1.jpg"]] remoteExec ["setObjectTexture", 0, false];
 		hint "Beginning reached, looping to last slide";

@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5115.584,96.67411,10966.706};
-		dir[]={-0.82205009,-0.33239108,-0.46257722};
-		up[]={-0.28995138,0.94288403,-0.16316637};
-		aside[]={-0.49050209,5.8208025e-006,0.87164164};
+		pos[]={6206.8975,134.15077,11626.656};
+		dir[]={0.39972082,-0.81729871,-0.41530615};
+		up[]={0.5667941,0.57591295,-0.58888787};
+		aside[]={-0.72062397,-3.6865458e-006,-0.6935944};
 	};
 };
 binarizationWanted=0;
@@ -607,7 +607,7 @@ class ScenarioData
 };
 class CustomAttributes
 {
-	class Category1
+	class Category0
 	{
 		name="Multiplayer";
 		class Attribute0
@@ -686,7 +686,7 @@ class CustomAttributes
 		};
 		nAttributes=3;
 	};
-	class Category2
+	class Category1
 	{
 		name="Scenario";
 		class Attribute0
@@ -746,6 +746,7 @@ class Mission
 		rainForced=1;
 		lightningsForced=1;
 		wavesForced=1;
+		windForced=1;
 		year=2017;
 		day=1;
 		hour=12;
@@ -1164,7 +1165,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6081.7856,86.176353,11722.368};
+				position[]={6085.8784,86.176353,11726.59};
 				angles[]={0,3.9211121,0};
 			};
 			side="Empty";
@@ -1180,7 +1181,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6064.1206,86.176353,11739.355};
+				position[]={6068.2134,86.176353,11743.577};
 				angles[]={0,3.9255552,0};
 			};
 			side="Empty";
@@ -19760,7 +19761,7 @@ class Mission
 			};
 			id=1320;
 			type="RHS_UH60M_d";
-			atlOffset=0.11997223;
+			atlOffset=0.079788208;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -29546,7 +29547,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6085.7056,83.620262,11726.383};
+				position[]={6089.7983,83.620262,11730.604};
 				angles[]={0,0.74246305,0};
 			};
 			side="Empty";
@@ -29605,7 +29606,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6068.1899,83.620262,11743.507};
+				position[]={6072.2827,83.620262,11747.729};
 				angles[]={0,0.74247152,0};
 			};
 			side="Empty";
@@ -31255,7 +31256,7 @@ class Mission
 									"BOOL"
 								};
 							};
-							value=1;
+							value=0;
 						};
 					};
 				};

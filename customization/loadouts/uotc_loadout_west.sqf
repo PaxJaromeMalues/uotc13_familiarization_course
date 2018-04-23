@@ -12,7 +12,15 @@ SET_GROUP(ifak)
 	["ACE_epinephrine", 1, "uniform"] call FNC_AddItem;
 	["ACE_tourniquet", 1, "uniform"] call FNC_AddItem;
 END_GROUP;
-	
+
+SET_GROUP(ifak_participant)
+	["ACE_fieldDressing", 2, "uniform"] call FNC_AddItem;
+	["ACE_elasticBandage", 2, "uniform"] call FNC_AddItem;
+	["ACE_packingBandage", 2, "uniform"] call FNC_AddItem;
+	["ACE_quikclot", 2, "uniform"] call FNC_AddItem;
+	["ACE_tourniquet", 1, "uniform"] call FNC_AddItem;
+END_GROUP;
+
 SET_GROUP(items)
 	["ItemMap"] call FNC_AddItem;
 	["ItemCompass"] call FNC_AddItem;
@@ -92,7 +100,7 @@ case (package + "PT"): {
 	//[""] call FNC_AddItem; //NoRuckForPTSpawn
 	//[""] call FNC_AddItem; //NoHeadGearParticipantSpawn
 	
-	ADD_GROUP(ifak);
+	ADD_GROUP(ifak_participant);
 	ADD_GROUP(sidearm);
 	ADD_GROUP(primary);
 	ADD_GROUP(items);
@@ -114,7 +122,7 @@ case (package + "GRN"): {
 	//[""] call FNC_AddItem; //NoRuckForGRN
 	["rhsusf_ach_helmet_headset_ocp"] call FNC_AddItem; //Head
 	
-	ADD_GROUP(ifak);
+	ADD_GROUP(ifak_participant);
 	ADD_GROUP(sidearm);
 	ADD_GROUP(items);
 	
@@ -137,7 +145,7 @@ case (package + "AR"): {
 	//[""] call FNC_AddItem; //NoRuckForAR
 	["rhsusf_ach_helmet_headset_ocp"] call FNC_AddItem; //Head
 	
-	ADD_GROUP(ifak);
+	ADD_GROUP(ifak_participant);
 	ADD_GROUP(sidearm);
 	ADD_GROUP(items);
 	
@@ -159,7 +167,7 @@ case (package + "RM"): {
 	//[""] call FNC_AddItem; //NoRuckForAR
 	["rhsusf_ach_helmet_headset_ocp"] call FNC_AddItem; //Head
 	
-	ADD_GROUP(ifak);
+	ADD_GROUP(ifak_participant);
 	ADD_GROUP(sidearm);
 	ADD_GROUP(items);
 	

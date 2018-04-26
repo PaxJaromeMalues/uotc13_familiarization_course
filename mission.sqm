@@ -8,7 +8,7 @@ class EditorData
 	toggles=66;
 	class ItemIDProvider
 	{
-		nextID=2322;
+		nextID=2325;
 	};
 	class MarkerIDProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5936.6108,130.05748,11535.405};
-		dir[]={0.70514798,-0.43267244,0.56176144};
-		up[]={0.33841434,0.90154606,0.26960123};
-		aside[]={0.62310803,1.4679972e-007,-0.78215021};
+		pos[]={6190.3198,89.592575,11634.971};
+		dir[]={0.64056045,-0.43730509,0.63133109};
+		up[]={0.3115187,0.89925849,0.30703205};
+		aside[]={0.7020117,-1.0681688e-006,-0.71226972};
 	};
 };
 binarizationWanted=0;
@@ -99,13 +99,14 @@ addons[]=
 	"A3_Props_F_Orange_Civilian_InfoBoards",
 	"xCam_EU",
 	"A3_Structures_F_Heli_Items_Electronics",
-	"A3_Props_F_Orange_Items_Electronics"
+	"A3_Props_F_Orange_Items_Electronics",
+	"A3_Signs_F"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=58;
+		items=59;
 		class Item0
 		{
 			className="CUP_WarfareBuildings";
@@ -476,6 +477,13 @@ class AddonsMetaData
 			className="xCam_EU";
 			name="xCam_EU";
 		};
+		class Item58
+		{
+			className="A3_Signs_F";
+			name="Arma 3 - Signs";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
 	};
 };
 class DynamicSimulation
@@ -486,9 +494,9 @@ randomSeed=12059019;
 class ScenarioData
 {
 	author="PaxJaromeMalues";
-	overviewText="UOTC Familiarization Course" \n "Version 1.9 - UOTC Review Version.";
-	overviewTextLocked="UOTC Familiarization Course" \n "Version 1.9 - UOTC Review Version.";
-	onLoadMission="UOTC Familiarization Course" \n "Version 1.9 - UOTC Review Version.";
+	overviewText="UOTC Familiarization Course" \n "Version 2.0" \n "Please report issues per GitHub/UO Forums";
+	overviewTextLocked="UOTC Familiarization Course" \n "Version 2.0" \n "Please report issues per GitHub/UO Forums";
+	onLoadMission="UOTC Familiarization Course" \n "Version 2.0" \n "Please report issues per GitHub/UO Forums";
 	debriefing=0;
 	showUAVFeed=0;
 	saving=0;
@@ -7094,8 +7102,8 @@ class Mission
 	appId=395180;
 	class Intel
 	{
-		briefingName="Familiarization Course V1.9.16";
-		overviewText="Familiarization Course V1.9.16";
+		briefingName="Familiarization Course V2.0";
+		overviewText="Familiarization Course V2.0";
 		resistanceEast=1;
 		startWeather=0;
 		startWind=0;
@@ -7115,7 +7123,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=880;
+		items=882;
 		class Item0
 		{
 			dataType="Object";
@@ -16551,8 +16559,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6212.1943,83.451553,11623.612};
-				angles[]={0,0.072362818,0};
+				position[]={6217.5195,83.451553,11629.629};
+				angles[]={0,4.8053474,0};
 			};
 			side="Empty";
 			flags=4;
@@ -16591,8 +16599,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6211.3999,83.866676,11623.868};
-				angles[]={0,0.082834758,0};
+				position[]={6217.2476,83.866676,11628.84};
+				angles[]={0,4.8158193,0};
 			};
 			side="Empty";
 			flags=4;
@@ -16632,8 +16640,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6211.3989,83.867676,11623.479};
-				angles[]={0,5.9116063,0};
+				position[]={6217.6367,83.867676,11628.831};
+				angles[]={0,4.3614054,0};
 			};
 			side="Empty";
 			flags=4;
@@ -16673,8 +16681,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6212.9331,83.863388,11623.378};
-				angles[]={0,0.092015184,0};
+				position[]={6217.769,83.863388,11630.362};
+				angles[]={0,4.8249998,0};
 			};
 			side="Empty";
 			flags=4;
@@ -29858,8 +29866,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6212.2036,84.11068,11623.861};
-				angles[]={0,0.08026769,0};
+				position[]={6217.2705,84.11068,11629.644};
+				angles[]={0,4.813252,0};
 			};
 			side="Empty";
 			flags=4;
@@ -29919,8 +29927,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6212.1807,83.863937,11623.494};
-				angles[]={0,0.074595377,0};
+				position[]={6217.6377,83.863937,11629.613};
+				angles[]={0,4.80758,0};
 			};
 			side="Empty";
 			flags=4;
@@ -29960,8 +29968,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6212.5649,83.859634,11623.369};
-				angles[]={0,3.209451,0};
+				position[]={6217.7705,83.859634,11629.995};
+				angles[]={0,1.6592498,0};
 			};
 			side="Empty";
 			flags=4;
@@ -30001,8 +30009,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={6212.5835,83.888214,11623.403};
-				angles[]={0,0.46615997,0};
+				position[]={6217.7368,83.888214,11630.014};
+				angles[]={0,5.1991444,0};
 			};
 			side="Empty";
 			flags=4;
@@ -31323,6 +31331,81 @@ class Mission
 			};
 			id=2313;
 			type="Land_arrows_desk_R";
+		};
+		class Item880
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6199.5688,84.783188,11643.496};
+				angles[]={0,0.78001273,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="circleboard";
+			};
+			id=2322;
+			type="Land_Billboard_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ObjectTextureCustom0";
+					expression="_this setObjectTextureGlobal [0,_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="res\circle.jpg";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="ace_isMedicalFacility";
+					expression="_this setVariable [""ace_medical_isMedicalFacility"",_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item881
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={6199.3989,83.53392,11643.338};
+				angles[]={0,0.7892161,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+			};
+			id=2324;
+			type="ArrowDesk_R_F";
 		};
 	};
 };

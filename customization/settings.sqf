@@ -52,13 +52,13 @@ if (!isDedicated) then { //This scope is only for the player
 				
 					waitUntil {time > 1}; //wait until the actual mission has started
           
-					"UOTC Familiarization Course" hintC [ //hintC - display the namend rows below as bullet points in a message box
+					"Course Participation Rules" hintC [ //hintC - display the namend rows below as bullet points in a message box
 					"Welcome to the UOTC Familiarization Course.",
 					"If you have to leave mid course, please announce this via side chat and leave quietly.",
 					"This course is designed to incorporate the participants via reading paragraphs or answering questions.",
 					"Professional beheaviour is expected at all times - Listen to the Instructors.",
 					"If you experience issues with ACRE PTT (local or radio) announce this on side chat right after closing this window.",
-					"Thank you for respecting these hints - have fun and enjoy the course!"
+					"Thank you for respecting these rules - have fun and enjoy the course!"
 					];
 					hintC_arr_EH = findDisplay 72 displayAddEventHandler ["unload", { //telling hintC to not be a retard a redisplay a second time with old ArmA1.0 funtion
 						0 = _this spawn {

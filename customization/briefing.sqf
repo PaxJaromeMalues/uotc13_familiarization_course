@@ -502,7 +502,7 @@ switch (side player) do {
 		<br/>Altered by Pax
 		<br/>
 		<br/><font color='#FFA500' size='15'>Mission by:</font>
-		<br/>PaxJaromeMalues, kail with help of Blackhawk, Perfk and others. Thanks to you guys!
+		<br/>PaxJaromeMalues with help of kail, Blackhawk, Perfk and many many others. Thanks to you guys!
 		<br/>
 		ENDTAB;
 

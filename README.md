@@ -18,4 +18,9 @@
 
 The **UOTC Familiarization Course** is a mission created for the ArmA3 United Operations Community with the aim to familiarize new players with general vanilla and ACE3 equipment and basic milsim gameply components applicable to UOs gameplay.
 This mission is based upon the **Olsen Framework**.
+
+**Legal Notice:**
+The name and logo of the **UOTC (united operations training center)** and of **UO (united operations)** are property of the **United Operations Gaming Community** and therefore protected.
+Do use this repository (excluding forked development that is routed back to this repository) properly with the MIT license, all refference to UO/UOTC has to be removed.
+
 https://github.com/dklollol/Olsen-Framework-Arma-3

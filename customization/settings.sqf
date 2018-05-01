@@ -23,7 +23,7 @@ if (isServer) then { //This scope is only for the server
 
 if (!isDedicated) then { //This scope is only for the player
 
-	FW_DebugMessagesEnabled = true;//Only disable debug messages when the mission is released
+	FW_DebugMessagesEnabled = false;//Only disable debug messages when the mission is released
 
 	setViewDistance 2500; //View distance for the player
 	

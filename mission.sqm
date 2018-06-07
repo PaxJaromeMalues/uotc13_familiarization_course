@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={6168.833,131.26283,11663.753};
-		dir[]={0.4566384,-0.71261317,-0.53268963};
-		up[]={0.46383214,0.70147663,-0.54108161};
-		aside[]={-0.75926632,9.2240225e-007,-0.65086728};
+		pos[]={5700.7778,153.61044,11300.094};
+		dir[]={-0.67479831,-0.49821839,-0.54456007};
+		up[]={-0.38780645,0.86696112,-0.31296045};
+		aside[]={-0.62805444,9.6930307e-007,0.77826083};
 	};
 };
 binarizationWanted=0;
@@ -16687,7 +16687,7 @@ class Mission
 					class Attributes
 					{
 						rank="LIEUTENANT";
-						init="call{this allowdamage false;" \n "this setVariable[""isInstructor"", true];" \n "[this, ""uotc_loadout_west_CI"", ""1'6""] call FNC_GearScript;" \n "[this, ""ACRE_PRC343"", 1] call FNC_SetRadio;" \n "[this, ""ACRE_PRC148"", 1] call FNC_SetRadio;" \n "[this, ""ACRE_PRC152"", 99] call FNC_SetRadio;}";
+						init="call{this setVariable[""isInstructor"", true];" \n "[this, ""uotc_loadout_west_CI"", ""1'6""] call FNC_GearScript;" \n "[this, ""ACRE_PRC343"", 1] call FNC_SetRadio;" \n "[this, ""ACRE_PRC148"", 1] call FNC_SetRadio;" \n "[this, ""ACRE_PRC152"", 99] call FNC_SetRadio;}";
 						name="CI";
 						description="1'6 | Chief Instructor";
 						isPlayable=1;
@@ -16730,7 +16730,7 @@ class Mission
 											"BOOL"
 										};
 									};
-									value=1;
+									value=0;
 								};
 							};
 						};
@@ -16807,7 +16807,7 @@ class Mission
 					class Attributes
 					{
 						rank="SERGEANT";
-						init="call{this allowdamage false;" \n "this setVariable [""isInstructor"", true];" \n "[this, ""uotc_loadout_west_TI"", ""1'1'TI""] call FNC_GearScript;" \n "[this, ""ACRE_PRC343"", 1] call FNC_SetRadio;" \n "[this, ""ACRE_PRC148"", 1] call FNC_SetRadio;" \n "[this, ""ACRE_PRC152"", 99] call FNC_SetRadio;}";
+						init="call{this setVariable [""isInstructor"", true];" \n "[this, ""uotc_loadout_west_TI"", ""1'1'TI""] call FNC_GearScript;" \n "[this, ""ACRE_PRC343"", 1] call FNC_SetRadio;" \n "[this, ""ACRE_PRC148"", 1] call FNC_SetRadio;" \n "[this, ""ACRE_PRC152"", 99] call FNC_SetRadio;}";
 						name="TI1";
 						description="1'1 | Training Instructor";
 						isPlayable=1;
@@ -16850,7 +16850,7 @@ class Mission
 											"BOOL"
 										};
 									};
-									value=1;
+									value=0;
 								};
 							};
 						};
@@ -16946,7 +16946,7 @@ class Mission
 					class Attributes
 					{
 						rank="SERGEANT";
-						init="call{this allowdamage false;" \n "this setVariable[""isInstructor"", true];" \n "[this, ""uotc_loadout_west_TI"", ""1'2'TI""] call FNC_GearScript;" \n "[this, ""ACRE_PRC343"", 1] call FNC_SetRadio;" \n "[this, ""ACRE_PRC148"", 1] call FNC_SetRadio;" \n "[this, ""ACRE_PRC152"", 99] call FNC_SetRadio;}";
+						init="call{this setVariable[""isInstructor"", true];" \n "[this, ""uotc_loadout_west_TI"", ""1'2'TI""] call FNC_GearScript;" \n "[this, ""ACRE_PRC343"", 1] call FNC_SetRadio;" \n "[this, ""ACRE_PRC148"", 1] call FNC_SetRadio;" \n "[this, ""ACRE_PRC152"", 99] call FNC_SetRadio;}";
 						name="TI2";
 						description="1'2 | Training Instructor";
 						isPlayable=1;
@@ -16989,7 +16989,7 @@ class Mission
 											"BOOL"
 										};
 									};
-									value=1;
+									value=0;
 								};
 							};
 						};
@@ -18164,7 +18164,7 @@ class Mission
 			};
 			id=1320;
 			type="RHS_UH60M_d";
-			atlOffset=0.11997223;
+			atlOffset=0.079788208;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -19803,7 +19803,7 @@ class Mission
 					flags=7;
 					class Attributes
 					{
-						init="call{this allowdamage false;" \n "this setVariable [""isInstructor"", false];" \n "[this, ""uotc_loadout_west_PT"", ""1'1'PT1""] call FNC_GearScript;" \n "[this, ""ACRE_PRC343"", (selectRandom [16,15,14,13,12,11,10,9,8,7,6,5,4,3,2])] call FNC_SetRadio;" \n "[this, ""ACRE_PRC148"", (selectRandom [16,25,34,43,52,61,70,19,28,37,46,55,64,73,82])] call FNC_SetRadio;}";
+						init="call{this setVariable [""isInstructor"", false];" \n "[this, ""uotc_loadout_west_PT"", ""1'1'PT1""] call FNC_GearScript;" \n "[this, ""ACRE_PRC343"", (selectRandom [16,15,14,13,12,11,10,9,8,7,6,5,4,3,2])] call FNC_SetRadio;" \n "[this, ""ACRE_PRC148"", (selectRandom [16,25,34,43,52,61,70,19,28,37,46,55,64,73,82])] call FNC_SetRadio;}";
 						description="1'1 | Participant";
 						isPlayable=1;
 					};
@@ -19845,7 +19845,7 @@ class Mission
 											"BOOL"
 										};
 									};
-									value=1;
+									value=0;
 								};
 							};
 						};
@@ -19902,7 +19902,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{this allowdamage false;" \n "this setVariable [""isInstructor"", false];" \n "[this, ""uotc_loadout_west_PT"", ""1'1'PT2""] call FNC_GearScript;" \n "[this, ""ACRE_PRC343"", (selectRandom [16,15,14,13,12,11,10,9,8,7,6,5,4,3,2])] call FNC_SetRadio;" \n "[this, ""ACRE_PRC148"", (selectRandom [16,25,34,43,52,61,70,19,28,37,46,55,64,73,82])] call FNC_SetRadio;}";
+						init="call{this setVariable [""isInstructor"", false];" \n "[this, ""uotc_loadout_west_PT"", ""1'1'PT2""] call FNC_GearScript;" \n "[this, ""ACRE_PRC343"", (selectRandom [16,15,14,13,12,11,10,9,8,7,6,5,4,3,2])] call FNC_SetRadio;" \n "[this, ""ACRE_PRC148"", (selectRandom [16,25,34,43,52,61,70,19,28,37,46,55,64,73,82])] call FNC_SetRadio;}";
 						description="1'1 | Participant";
 						isPlayable=1;
 					};
@@ -19944,7 +19944,7 @@ class Mission
 											"BOOL"
 										};
 									};
-									value=1;
+									value=0;
 								};
 							};
 						};
@@ -20001,7 +20001,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{this allowdamage false;" \n "this setVariable [""isInstructor"", false];" \n "[this, ""uotc_loadout_west_PT"", ""1'1'PT3""] call FNC_GearScript;" \n "[this, ""ACRE_PRC343"", (selectRandom [16,15,14,13,12,11,10,9,8,7,6,5,4,3,2])] call FNC_SetRadio;" \n "[this, ""ACRE_PRC148"", (selectRandom [16,25,34,43,52,61,70,19,28,37,46,55,64,73,82])] call FNC_SetRadio;}";
+						init="call{this setVariable [""isInstructor"", false];" \n "[this, ""uotc_loadout_west_PT"", ""1'1'PT3""] call FNC_GearScript;" \n "[this, ""ACRE_PRC343"", (selectRandom [16,15,14,13,12,11,10,9,8,7,6,5,4,3,2])] call FNC_SetRadio;" \n "[this, ""ACRE_PRC148"", (selectRandom [16,25,34,43,52,61,70,19,28,37,46,55,64,73,82])] call FNC_SetRadio;}";
 						description="1'1 | Participant";
 						isPlayable=1;
 					};
@@ -20043,7 +20043,7 @@ class Mission
 											"BOOL"
 										};
 									};
-									value=1;
+									value=0;
 								};
 							};
 						};
@@ -20100,7 +20100,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{this allowdamage false;" \n "this setVariable [""isInstructor"", false];" \n "[this, ""uotc_loadout_west_PT"", ""1'1'PT4""] call FNC_GearScript;" \n "[this, ""ACRE_PRC343"", (selectRandom [16,15,14,13,12,11,10,9,8,7,6,5,4,3,2])] call FNC_SetRadio;" \n "[this, ""ACRE_PRC148"", (selectRandom [16,25,34,43,52,61,70,19,28,37,46,55,64,73,82])] call FNC_SetRadio;}";
+						init="call{this setVariable [""isInstructor"", false];" \n "[this, ""uotc_loadout_west_PT"", ""1'1'PT4""] call FNC_GearScript;" \n "[this, ""ACRE_PRC343"", (selectRandom [16,15,14,13,12,11,10,9,8,7,6,5,4,3,2])] call FNC_SetRadio;" \n "[this, ""ACRE_PRC148"", (selectRandom [16,25,34,43,52,61,70,19,28,37,46,55,64,73,82])] call FNC_SetRadio;}";
 						description="1'1 | Participant";
 						isPlayable=1;
 					};
@@ -20142,7 +20142,7 @@ class Mission
 											"BOOL"
 										};
 									};
-									value=1;
+									value=0;
 								};
 							};
 						};
@@ -20199,7 +20199,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{this allowdamage false;" \n "this setVariable [""isInstructor"", false];" \n "[this, ""uotc_loadout_west_PT"", ""1'1'PT5""] call FNC_GearScript;" \n "[this, ""ACRE_PRC343"", (selectRandom [16,15,14,13,12,11,10,9,8,7,6,5,4,3,2])] call FNC_SetRadio;" \n "[this, ""ACRE_PRC148"", (selectRandom [16,25,34,43,52,61,70,19,28,37,46,55,64,73,82])] call FNC_SetRadio;}";
+						init="call{this setVariable [""isInstructor"", false];" \n "[this, ""uotc_loadout_west_PT"", ""1'1'PT5""] call FNC_GearScript;" \n "[this, ""ACRE_PRC343"", (selectRandom [16,15,14,13,12,11,10,9,8,7,6,5,4,3,2])] call FNC_SetRadio;" \n "[this, ""ACRE_PRC148"", (selectRandom [16,25,34,43,52,61,70,19,28,37,46,55,64,73,82])] call FNC_SetRadio;}";
 						description="1'1 | Participant";
 						isPlayable=1;
 					};
@@ -20241,7 +20241,7 @@ class Mission
 											"BOOL"
 										};
 									};
-									value=1;
+									value=0;
 								};
 							};
 						};
@@ -20369,7 +20369,7 @@ class Mission
 					flags=7;
 					class Attributes
 					{
-						init="call{this allowdamage false;" \n "this setVariable [""isInstructor"", false];" \n "[this, ""uotc_loadout_west_PT"", ""1'2'PT6""] call FNC_GearScript;" \n "[this, ""ACRE_PRC343"", (selectRandom [16,15,14,13,12,11,10,9,8,7,6,5,4,3,2])] call FNC_SetRadio;" \n "[this, ""ACRE_PRC148"", (selectRandom [16,25,34,43,52,61,70,19,28,37,46,55,64,73,82])] call FNC_SetRadio;}";
+						init="call{this setVariable [""isInstructor"", false];" \n "[this, ""uotc_loadout_west_PT"", ""1'2'PT6""] call FNC_GearScript;" \n "[this, ""ACRE_PRC343"", (selectRandom [16,15,14,13,12,11,10,9,8,7,6,5,4,3,2])] call FNC_SetRadio;" \n "[this, ""ACRE_PRC148"", (selectRandom [16,25,34,43,52,61,70,19,28,37,46,55,64,73,82])] call FNC_SetRadio;}";
 						description="1'2 | Participant";
 						isPlayable=1;
 					};
@@ -20411,7 +20411,7 @@ class Mission
 											"BOOL"
 										};
 									};
-									value=1;
+									value=0;
 								};
 							};
 						};
@@ -20468,7 +20468,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{this allowdamage false;" \n "this setVariable [""isInstructor"", false];" \n "[this, ""uotc_loadout_west_PT"", ""1'1'PT8""] call FNC_GearScript;" \n "[this, ""ACRE_PRC343"", (selectRandom [16,15,14,13,12,11,10,9,8,7,6,5,4,3,2])] call FNC_SetRadio;" \n "[this, ""ACRE_PRC148"", (selectRandom [16,25,34,43,52,61,70,19,28,37,46,55,64,73,82])] call FNC_SetRadio;}";
+						init="call{this setVariable [""isInstructor"", false];" \n "[this, ""uotc_loadout_west_PT"", ""1'1'PT8""] call FNC_GearScript;" \n "[this, ""ACRE_PRC343"", (selectRandom [16,15,14,13,12,11,10,9,8,7,6,5,4,3,2])] call FNC_SetRadio;" \n "[this, ""ACRE_PRC148"", (selectRandom [16,25,34,43,52,61,70,19,28,37,46,55,64,73,82])] call FNC_SetRadio;}";
 						description="1'2 | Participant";
 						isPlayable=1;
 					};
@@ -20510,7 +20510,7 @@ class Mission
 											"BOOL"
 										};
 									};
-									value=1;
+									value=0;
 								};
 							};
 						};
@@ -20567,7 +20567,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{this allowdamage false;" \n "this setVariable [""isInstructor"", false];" \n "[this, ""uotc_loadout_west_PT"", ""1'2'PT9""] call FNC_GearScript;" \n "[this, ""ACRE_PRC343"", (selectRandom [16,15,14,13,12,11,10,9,8,7,6,5,4,3,2])] call FNC_SetRadio;" \n "[this, ""ACRE_PRC148"", (selectRandom [16,25,34,43,52,61,70,19,28,37,46,55,64,73,82])] call FNC_SetRadio;}";
+						init="call{this setVariable [""isInstructor"", false];" \n "[this, ""uotc_loadout_west_PT"", ""1'2'PT9""] call FNC_GearScript;" \n "[this, ""ACRE_PRC343"", (selectRandom [16,15,14,13,12,11,10,9,8,7,6,5,4,3,2])] call FNC_SetRadio;" \n "[this, ""ACRE_PRC148"", (selectRandom [16,25,34,43,52,61,70,19,28,37,46,55,64,73,82])] call FNC_SetRadio;}";
 						description="1'2 | Participant";
 						isPlayable=1;
 					};
@@ -20609,7 +20609,7 @@ class Mission
 											"BOOL"
 										};
 									};
-									value=1;
+									value=0;
 								};
 							};
 						};
@@ -20666,7 +20666,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{this allowdamage false;" \n "this setVariable [""isInstructor"", false];" \n "[this, ""uotc_loadout_west_PT"", ""1'2'PT10""] call FNC_GearScript;" \n "[this, ""ACRE_PRC343"", (selectRandom [16,15,14,13,12,11,10,9,8,7,6,5,4,3,2])] call FNC_SetRadio;" \n "[this, ""ACRE_PRC148"", (selectRandom [16,25,34,43,52,61,70,19,28,37,46,55,64,73,82])] call FNC_SetRadio;}";
+						init="call{this setVariable [""isInstructor"", false];" \n "[this, ""uotc_loadout_west_PT"", ""1'2'PT10""] call FNC_GearScript;" \n "[this, ""ACRE_PRC343"", (selectRandom [16,15,14,13,12,11,10,9,8,7,6,5,4,3,2])] call FNC_SetRadio;" \n "[this, ""ACRE_PRC148"", (selectRandom [16,25,34,43,52,61,70,19,28,37,46,55,64,73,82])] call FNC_SetRadio;}";
 						description="1'2 | Participant";
 						isPlayable=1;
 					};
@@ -20708,7 +20708,7 @@ class Mission
 											"BOOL"
 										};
 									};
-									value=1;
+									value=0;
 								};
 							};
 						};
@@ -20765,7 +20765,7 @@ class Mission
 					flags=5;
 					class Attributes
 					{
-						init="call{this allowdamage false;" \n "this setVariable [""isInstructor"", false];" \n "[this, ""uotc_loadout_west_PT"", ""1'2'PT7""] call FNC_GearScript;" \n "[this, ""ACRE_PRC343"", (selectRandom [16,15,14,13,12,11,10,9,8,7,6,5,4,3,2])] call FNC_SetRadio;" \n "[this, ""ACRE_PRC148"", (selectRandom [16,25,34,43,52,61,70,19,28,37,46,55,64,73,82])] call FNC_SetRadio;}";
+						init="call{this setVariable [""isInstructor"", false];" \n "[this, ""uotc_loadout_west_PT"", ""1'2'PT7""] call FNC_GearScript;" \n "[this, ""ACRE_PRC343"", (selectRandom [16,15,14,13,12,11,10,9,8,7,6,5,4,3,2])] call FNC_SetRadio;" \n "[this, ""ACRE_PRC148"", (selectRandom [16,25,34,43,52,61,70,19,28,37,46,55,64,73,82])] call FNC_SetRadio;}";
 						description="1'2 | Participant";
 						isPlayable=1;
 					};
@@ -20807,7 +20807,7 @@ class Mission
 											"BOOL"
 										};
 									};
-									value=1;
+									value=0;
 								};
 							};
 						};

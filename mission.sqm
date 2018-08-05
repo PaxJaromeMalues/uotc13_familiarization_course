@@ -18164,7 +18164,7 @@ class Mission
 			};
 			id=1320;
 			type="RHS_UH60M_d";
-			atlOffset=0.079788208;
+			atlOffset=0.11997223;
 			class CustomAttributes
 			{
 				class Attribute0
